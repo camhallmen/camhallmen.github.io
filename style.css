@@ -1,0 +1,147 @@
+/* Image Rotate */
+#img {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transform: rotate(90deg) scale(.8)
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/* Teal Background Color */
+.txtBackground {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 10px 0 20px;
+    padding: 15px 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+    margin: 0 25px;
+}
+
+/* Header */
+#siteName {
+    float: left;
+    width: 250px;
+}
+#headerwrap {
+    display: block;
+    max-width: 100%;
+    border-bottom: solid grey 1px;
+    background-color: white;
+    padding-top: 5px;
+}
+#header {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav a:hover {
+    color: teal;
+}
+li {
+    float: right;
+    color: grey;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Body */
+.pagewidth {
+    width: 960px;
+    margin: 0 auto;
+}
+#bio {
+    display: block;
+    border-top: grey;
+    margin-top: 40px;
+    background-color: white;
+    padding: 10px 10px;
+}
+p {
+    line-height: 1.5em;
+}
+
+/* Contact Section */
+#tealButton {
+    background-color: teal;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#message {
+    width: 100%;
+    height: 200px;
+}
+.textArea {
+    width: 100%;
+}
+
+/* Footer */
+.centerText {
+    text-align: center;
+}
+footer {
+    background-color: grey;
+    border-top: teal 5px solid;
+    margin: 40px 0 0;
+    color: white;
+}
+
+/* Font */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Portfolio Image Layout */
+#biopic {
+    display: block;
+    border-top: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px 0px 260px 50px;
+}
+#pic1 {
+    margin: 10px 20px 10px 10px;
+    border-bottom: #4aaaa5 solid 40px;
+}
+#pic2 {
+    margin: 10px 20px 10px 10px;
+    border-bottom: #4aaaa5 solid 40px;
+}
+#pic3 {
+    position: relative;
+    top: 263px;
+    right: 235px;
+    margin: 10px 20px 10px 10px;
+    border-bottom: #4aaaa5 solid 40px;
+}
+#pic4 {
+    margin: 10px 20px 10px 10px;
+    position: relative;
+    top: 525px;
+    right: 703px;
+    border-bottom: #4aaaa5 solid 40px;
+}
+#pic5 {
+    margin: 10px 20px 10px 10px;
+    border-bottom: #4aaaa5 solid 40px;
+}
